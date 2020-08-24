@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-lg-12 spacing-20 intro">
+        <img src="../../../../public/images/king_shan.jpg" alt="king shan" />
+
+        <h1>Finding Falcone!</h1>
+        <br>
+        <div class="container">
+            <div *ngIf="finalResponse.status == 'success'">
+                <h5>Success! Congratulations on Finding Falcone. King Shan is mighty pleased.</h5>
+                <h5>Time taken: {{finalResponse.timeTaken}}</h5>
+                <h5> Planet found: {{finalResponse.planet_name}}</h5>
+            </div>
+
+            <div *ngIf="finalResponse.status == 'false'">
+                <h5>Failed to find Falcone</h5>
+                <h5>Time taken: {{finalResponse.timeTaken}}</h5>
+            </div>
+
+            <a class="button btn btn-large btn-primary" (click)="resetEverything()"> Start Again </a>
+        </div>
+
+
+    </div>
+</div>

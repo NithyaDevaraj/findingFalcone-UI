@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="text-center"> Select any 4 Planets and Vehicles you want to search </h2>
+        <h5 class="text-center" [hidden]="totalTimeTaken==0"> Total time to reach all the planets : {{totalTimeTaken}} </h5>
+        <br>
+        <div class="row">
+            <app-selection-form class="col-lg-3"></app-selection-form>
+            <app-selection-form class="col-lg-3"></app-selection-form>
+            <app-selection-form class="col-lg-3"></app-selection-form>
+            <app-selection-form class="col-lg-3"></app-selection-form>
+
+            <div class="col-lg-12">
+                <a class="button btn btn-primary" (click)="findFalcone()" [hidden]="!isValidForSendingRequest"> Find Falcone
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
