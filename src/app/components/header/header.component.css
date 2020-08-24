@@ -1,0 +1,10 @@
+.navbar{
+    padding:0;
+    margin-bottom: 1rem;
+    background-color: #87CEFA;
+}
+.navbar .nav-link{
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}

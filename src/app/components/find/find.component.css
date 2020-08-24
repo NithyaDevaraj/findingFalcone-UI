@@ -1,0 +1,39 @@
+h2{
+    font-weight: bold;
+}
+
+.row {
+    text-align: center;
+}
+
+a{
+    color: white !important;
+    border-radius: 2.25rem;
+    padding: 0.375rem 3.75rem;
+    margin-top: 5%;
+}
+
+.button {
+    width: 400px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #87CEFA;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #00BFFF;
+    box-shadow: 0px 15px 20px rgba(176,224,230);
+    color: #fff;
+    transform: translateY(-7px);
+  }

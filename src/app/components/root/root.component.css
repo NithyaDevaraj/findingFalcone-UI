@@ -1,0 +1,8 @@
+.spacing-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.toast-container .toast {
+    opacity: 1 !important;
+}
